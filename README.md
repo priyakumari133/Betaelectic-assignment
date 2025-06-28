@@ -1,6 +1,9 @@
 # Frontend - Favorite NPM Packages App
 
 A React application for searching and managing favorite NPM packages.
+### 🔗 Live Demo
+
+👉 [Click here to view the live app](https://npm-package-app.netlify.app/)
 
 ## Installation
 
@@ -49,21 +52,14 @@ src/
 └── main.jsx
 ```
 
-## Routes
-
-- `/` - Search page
-- `/favorites` - Favorites page
 
 ## Screenshots
+### Home Page
+![Home Screenshot](screenshots/home.png)
 
-### Search Page
-![Search functionality with NPM API integration]
+### Favorites Page
+![Favorites Screenshot](screenshots/favorites.png)
 
-### Favorites Page  
-![Favorites list with remove functionality]
-
-### Mobile View
-![Responsive design on mobile devices]
 
 ## Development
 
