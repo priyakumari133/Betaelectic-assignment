@@ -1,0 +1,81 @@
+.favorite-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 1.5rem;
+    border: 1px solid #e5e7eb;
+  }
+  
+  .favorite-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0.75rem;
+  }
+  
+  .favorite-name {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #374151;
+    margin: 0;
+    word-break: break-word;
+  }
+  
+  .favorite-version {
+    font-size: 0.875rem;
+    color: #6b7280;
+    background-color: #f3f4f6;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    white-space: nowrap;
+  }
+  
+  .favorite-description {
+    color: #6b7280;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+  }
+  
+  .favorite-reason {
+    margin-bottom: 1rem;
+  }
+  
+  .reason-title {
+    font-weight: 500;
+    color: #374151;
+    margin: 0 0 0.25rem 0;
+    font-size: 0.9rem;
+  }
+  
+  .reason-text {
+    color: #6b7280;
+    font-style: italic;
+    margin: 0;
+  }
+  
+  .favorite-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .date-added {
+    font-size: 0.875rem;
+    color: #9ca3af;
+  }
+  
+  .remove-button {
+    padding: 0.5rem 1rem;
+    background-color: #ef4444;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.875rem;
+    transition: background-color 0.3s;
+  }
+  
+  .remove-button:hover {
+    background-color: #dc2626;
+  }
+  
