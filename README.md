@@ -55,18 +55,19 @@ src/
 
 ## Screenshots
 ### Home Page
-![Home Screenshot](screenshots/home.png)
+![Favorites Screenshot](https://drive.google.com/uc?export=view&id=14dK8g2iHC2kwEEewlZKForOXo9qV6e05)
+
 
 ### Favorites Page
-![Favorites Screenshot](screenshots/favorites.png)
+![Home Screenshot](https://drive.google.com/uc?export=view&id=1ewEdaojpK--a67gNw-OZClTRnRANcTPI)
+
+
 
 
 ## Development
 
 ```bash
 npm run dev      # Start development
-npm run build    # Build for production
-npm run preview  # Preview build
 ```
 
 # Backend - Checkout System API
@@ -119,14 +120,12 @@ src/
 ### Products
 ```http
 GET /api/products           # Get all products
-GET /api/products/:id       # Get product by ID
 ```
 
 ### Cart
 ```http
 POST /api/basket/add        # Add item to cart
 GET /api/basket            # Get cart with totals
-DELETE /api/basket/clear    # Clear cart
 ```
 
 ## Request/Response Examples
